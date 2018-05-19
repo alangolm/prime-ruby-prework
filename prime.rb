@@ -1,7 +1,6 @@
 def prime?(n)
   if n < 2
     return false
-  end 
   else
     array = (2..(n-1).to_a
     array.each do |x|
