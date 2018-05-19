@@ -6,5 +6,7 @@ def prime?(n)
     array.each do |x|
       if (n % x) == 0 
         return false 
+      end 
+    end   
   end   
 end   
