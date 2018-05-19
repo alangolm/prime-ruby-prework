@@ -3,5 +3,6 @@ def prime?(n)
     return false 
   else 
     array = (2..(n-1)).to_a 
-    
+    array.each 
+  end   
 end   
